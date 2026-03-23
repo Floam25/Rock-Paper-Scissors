@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    font-family: "Inter";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-box {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.choice-card-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.choice-box {
+    display: flex;
+    gap: 40px;
+}
+
+button {
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+
+.score-box {
+    border: solid black 2px;
+    border-radius: 5px;
+    display: flex;
+    width: 30vw;
+    padding: 20px;
+    margin: 40px;
+}
+
+.score-you {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.score-computer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.restart-btn {
+    padding: 5px;
+}
+
+.start-btn {
+    padding: 5px;
+}
+
+
+.btn-box {
+    display: flex;
+    gap: 10px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.game-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 50px;
+    margin-top: 20px;
+    border: black solid 2px;
+    border-radius: 5px;
+}
+
+.win {
+    background-color: green;
+}
+
+.lose {
+    background-color: red;
+}
+
+
+.start-btn {
+    height: 80px;
+    width: 50vw;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.result-box,
+.start-box {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 64px;
+    font-weight: 700;
+}

@@ -3,10 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js"></script>
+    <title>Rock/Paper/Scissors</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="main-box hidden">
+        <span class="round-counter">Round: 1</span>
+        <div class="score-box">
+            <span class="score-you">You: 0</span>
+            <span class="score-computer">Computer: 0</span>
+        </div>
     
+        <div class="choice-box">
+            <div class="choice-card-box">
+                <button class="rock">Rock</button>
+                <button class="paper">Paper</button>
+                <button class="scissors">Scissors</button>
+            </div>
+        </div>
+        <div class="btn-box">
+            <button class="stop-btn">Stop</button>
+            <button class="restart-btn">Restart</button>
+        </div>
+    </div>
+
+    <div class="result-box hidden">
+        <span class="result">You won!</span>
+        <button class="stop-btn">Home</button>
+    </div>
+
+    <div class="start-box">
+        <button class="start-btn">Start</button>        
+    </div>
+
 </body>
 </html>
+<script src="script.js"></script>
